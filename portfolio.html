@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Портфолио</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="scripts/jquery.fancybox.min.css" />
+
+</head>
+
+<body>
+
+	<header class="header">
+		<button class="header__button-close"></button>
+		<ul class="header__nav-list">
+			<li class="header__nav-item"><a class="header__nav-item-link" href="index.html">Главная</a></li>
+			<li class="header__nav-item"><a class="header__nav-item-link" href="portfolio.html">Портфолио</a></li>
+			<li class="header__nav-item"><a class="header__nav-item-link" href="about.html">О Нас</a></li>
+		</ul>
+	</header>
+
+	<main class="index__main" id="link_top">
+
+		<div class="header__wrap">
+			<div class="header__btn-logo-text">
+				<button class="header__btn"></button>
+				<a href="#link_top">
+					<img src="img/logo.png" alt="" class="header__logo">
+				</a>
+				<p class="p0 header__text">Видеопродакшн<br> полного цикла</p>
+			</div>
+			<div class="header__tel-price">
+				<a href="tel:+74951124252" class="header__tel">+7 495 112-42-52</a>
+				<a href="#link_contacts" class="header__price">Рассчитать стоимость</a>
+			</div>
+		</div>
+
+		<section class="main__port port-pt">
+			<h2 class="p0 port-pt-head container">Портфолио</h2>
+			<ul class="p0 port-pt-list container">
+				<li class="port-pt-item" onclick="category(1)">Все</li>
+				<li class="port-pt-item" onclick="category(2)">Видео о продукте</li>
+				<li class="port-pt-item" onclick="category(3)">личный бренд</li>
+				<li class="port-pt-item" onclick="category(4)">имиджевое видео</li>
+			</ul>
+			<div class="port__wrap" id="link_portfolio">
+				<div class="port__wrap-item">
+					<img src="img/port1.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				
+				<div class="port__wrap-item">
+					<img src="img/port2.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port3.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port4.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port5.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port6.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port7.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port1.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port2.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port3.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port4.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port5.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port6.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port7.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port1.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port2.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>	
+
+
+				<button class="port__wrap-link">показать еще &gt;</button>
+				<button class="port__wrap-link port__wrap-linkBack">&lt; назад</button>
+			</div>
+			<div class="port__wrap" id="link_portfolio">
+				<div class="port__wrap-item">
+					<img src="img/port1.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port2.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port1.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port2.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port1.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port2.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port1.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port2.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port1.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port2.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port2.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port2.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				
+				<button class="port__wrap-link">показать еще &gt;</button>
+				<button class="port__wrap-link port__wrap-linkBack">&lt; назад</button>
+			</div>
+			<div class="port__wrap" id="link_portfolio">
+				<div class="port__wrap-item">
+					<img src="img/port1.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port1.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				
+
+				<button class="port__wrap-link">показать еще &gt;</button>
+				<button class="port__wrap-link port__wrap-linkBack">&lt; назад</button>
+			</div>
+			<div class="port__wrap" id="link_portfolio">
+				<div class="port__wrap-item">
+					<img src="img/port3.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port3.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+				<div class="port__wrap-item">
+					<img src="img/port3.jpg" alt="" class="port__wrap-img">
+					<p class="port__wrap-img-text p0">Название в одну или две небольших строки</p>
+					<a class="faaancy-link" href="http://www.youtube.com/embed/BtgRWL10JCw" data-fancybox></a>
+				</div>
+
+				<button class="port__wrap-link">показать еще &gt;</button>
+				<button class="port__wrap-link port__wrap-linkBack">&lt; назад</button>
+			</div>
+		
+		</section>
+
+		<section class="question">
+			<div class="container">
+				<div class="question__wrapper">
+					<h2 class="question__text"><span class="span-bold">Есть вопросы? </span>Проведем бесплатную консультацию</h2>
+					<p class="question__desc">Оставьте ваши контакты и мы свяжемся в ближайшее время</p>
+					<form class="question__forma" action="send.php" method="post">
+						<input class="question__forma-input" type="tel" name="tel" placeholder="+7 924 558 78 98" required>
+						<button class="question__forma-button" type="submit">Отправить</button>
+						<label class="question__forma-label">
+							<input type="checkbox" class="question__forma-check" required checked><span class="question__forma-span"></span>Согласен с политикой обработки конфиденциальных данных
+						</label>
+					</form>
+				</div>
+			</div>
+			<img class="question__img" src="img/question.png" alt="Question">
+		</section>
+	</main>
+
+	<footer class="footer container" id="link_contacts">
+		<h2 class="footer__title title p0">контакты</h2>
+		<h2 class="footer__title-bg p0">Контакты</h2>
+		<a class="footer__tel" href="tel:89122557878">8 912 255-78-78</a>
+		<div class="footer__social-wrapper">
+			<a class="footer__social-link" href="#">
+				<img class="footer__social-img" src="img/f_Telegram.png" alt="Telegram">
+			</a>
+			<a class="footer__social-link" href="#">
+				<img class="footer__social-img" src="img/f_Instagram.png" alt="Instagram">
+			</a>
+			<a class="footer__social-link" href="#">
+				<img class="footer__social-img" src="img/f_VK.png" alt="VK" >
+			</a>
+		</div>
+		<a class="footer__link-aboutUs" href="#">Подробнее о нас</a>
+		<div class="footer__forma-wrapper">
+			<p class="footer__forma-title p0">Оставьте ваши контакты и мы свяжемся в ближайшее время</p>
+			<form class="footer__forma" action="send.php" method="post">
+				<input class="footer__forma-input" type="text" name="name" placeholder="Ваше имя" required>
+				<input class="footer__forma-input" type="tel" name="tel" placeholder="Номер телефона" required>
+				<button class="footer__forma-button" type="submit">Отправить</button>
+				<label class="footer__forma-label">
+					<input type="checkbox" class="footer__forma-check" required checked><span class="footer__forma-span"></span>Согласен с политикой обработки конфиденциальных данных
+				</label>
+			</form>
+		</div>
+		<a class="footer__link-priv" href="#" download="">Политика конфиденциальности</a>
+	</footer>
+
+	<div class="modal-shadow">
+		<button class="modal-shadow-close"></button>
+	</div>
+	
+	<script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+	<script src="scripts/jquery.fancybox.min.js"></script>
+
+
+	<script>
+		$(document).ready(function() {
+			$(function() {
+			$("[data-fancybox]").fancybox();
+			});
+		});
+	</script>
+
+	<script src="scripts/menu.js"></script>
+	<script src="scripts/scroll.js"></script>
+	<!-- <script src="scripts/port.js"></script> -->
+	<script src="scripts/portSort.js"></script>
+</body>
+</html>
